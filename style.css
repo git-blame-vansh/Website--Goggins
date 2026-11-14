@@ -1,0 +1,176 @@
+/* GENERAL WEBSITE STYLING */
+
+body {
+    background-color: #111111;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* MAIN HEADING */
+
+h1 {
+    color: #e63946;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 25px;
+}
+
+/* SUBHEADINGS */
+
+h2 {
+    color: #e63946;
+    font-size: 28px;
+    margin-left: 30px;
+}
+
+/* PARAGRAPHS */
+
+p {
+    color: #cccccc;
+    font-size: 17px;
+    line-height: 1.8;
+    margin: 30px;
+}
+
+/* LINKS */
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: #e63946;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin: 30px;
+    display: inline-block;
+}
+
+/* HOVER EFFECT */
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+/* NAVIGATION BAR */
+
+.navbar {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 20px 50px;
+
+    background-color: #080808;
+
+}
+
+
+/* WEBSITE LOGO */
+
+.logo {
+
+    color: #e63946;
+
+    font-size: 28px;
+
+}
+
+
+/* NAVIGATION LINKS */
+
+.nav-links {
+
+    display: flex;
+
+    gap: 30px;
+
+}
+
+
+.nav-links a {
+
+    color: white;
+
+    background-color: transparent;
+
+    padding: 10px;
+
+    margin: 0;
+
+    transition: color 0.3s ease;
+
+}
+
+
+.nav-links a:hover {
+
+    color: #e63946;
+
+}
+
+
+.nav-links a.active {
+    color: #e63946;
+}
+
+
+
+/* HERO SECTION */
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 80px;
+    gap: 50px;
+}
+
+/* HERO CONTENT */
+
+.hero-content {
+
+    max-width: 650px;
+
+}
+
+
+.hero-content h1 {
+    font-size: 65px;
+    text-align: left;
+    color: #e63946;
+    letter-spacing: 3px;
+    padding: 0;
+}
+
+.hero-content p {
+
+    font-size: 20px;
+
+    margin: 20px 0;
+
+    line-height: 1.8;
+
+}
+
+/* GOGGINS IMAGE */
+
+.hero-image img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.history-page .hero-image img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(230, 57, 70, 0.25);
+}
